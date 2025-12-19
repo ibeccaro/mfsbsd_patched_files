@@ -20,7 +20,7 @@ by
 |  _( )_  |.'  (_'o._)|  _( )_  |.'  (_'o._) \  `-'    / `-'`-'|___ 
 \ (_ o _) /|    (_,_)|\ (_ o _) /|    (_,_)|  \       /   |        \
  '.(_,_).' |_________| '.(_,_).' |_________|   `'-..-'    `--------````
- 
+ ```
  
  ## Notes
  Legacy i386 machine do not need EFI bootloader and it is not present in the distribuition (14.3),
@@ -28,7 +28,7 @@ by
  More, the tools/packages,sample file installs cpdup-freebsd package from older FreeBSD releases, now 
  replaced by cpdup package.
  
- ## instructions for building
+ ### instructions for building
  same as original mfsbsd butt adding ```WITHOUT_EFI=yes``` option
  
 - disc image
