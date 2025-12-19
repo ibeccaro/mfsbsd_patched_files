@@ -25,7 +25,7 @@ by
  ## Notes
  Legacy i386 machine do not need EFI bootloader and it is not present in the distribuition (14.3),
  so it has been removed from makefile and still the makefile must be invoked with NO_EFIBOOT option set\
- More, the tools/packages,sample file installs cpdup-freebsd package from older FreeBSD releases, now 
+ More, the tools/packages.sample file installs cpdup-freebsd package from older FreeBSD releases, now 
  replaced by cpdup package.
  Replace
  
