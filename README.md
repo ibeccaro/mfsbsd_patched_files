@@ -27,6 +27,11 @@ by
  so it has been removed from makefile and still the makefile must be invoked with WITHOUT_EFI option set\
  More, the tools/packages,sample file installs cpdup-freebsd package from older FreeBSD releases, now 
  replaced by cpdup package.
+ Replace
+ 
+ ```Makefile``` and ```tools/packages.sample```
+ 
+ with provided files and build,
  
  ### Instructions for building
  same as original mfsbsd butt adding ```WITHOUT_EFI=yes``` option
