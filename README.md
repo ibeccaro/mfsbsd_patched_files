@@ -1,4 +1,4 @@
-# Patched Makefile and tools/packages.sample for mfsbsd_
+# Patched Makefile and tools/packages.sample for mfsbsd
 Modified files to patch
 
 https://github.com/mmatuska/mfsbsd
@@ -28,7 +28,7 @@ by
  More, the tools/packages,sample file installs cpdup-freebsd package from older FreeBSD releases, now 
  replaced by cpdup package.
  
- ### instructions for building
+ ### Instructions for building
  same as original mfsbsd butt adding ```WITHOUT_EFI=yes``` option
  
 - disc image
